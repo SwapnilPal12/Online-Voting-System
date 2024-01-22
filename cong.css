@@ -1,0 +1,29 @@
+body{
+    background: url(assets/c5N6hQHYqtdvLanp.jpg_large);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+    font-size: 5rem;
+    text-align: center;
+    color: blueviolet;
+}
+.gro{
+    font-size: 2rem;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.hello{
+    background: url(assets/bjp-background-f2ywruw0ixphf4xs.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aap{
+    background: url(assets/AAPP.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

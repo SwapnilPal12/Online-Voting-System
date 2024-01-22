@@ -15,8 +15,6 @@ btn.onclick = function(){
         btnIcon.src="assets/dark theme icon/moon.png";
         btnText.innerHTML="Dark";
         para.style.color="black";
-       
-
     }
 }
 

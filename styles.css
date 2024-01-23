@@ -30,7 +30,10 @@ form {
     margin: 10px 0;
     text-align: left;
 }
-
+#logout a {
+    color:none;
+    text-decoration:none;
+}
 label {
     display: block;
     margin-bottom: 5px;
@@ -46,18 +49,20 @@ input {
 }
 
 .button {
-    background-color: pink;
+    background-color: rgb(236, 42, 181);
     color: #fff;
+    font-weight:500;
+    font-size:1em;
     border: none;
     border-radius: 3px;
     padding: 10px 20px;
     cursor: pointer;
     width: 50%;
+    box-shadow: 4px 4px 7px #555;
 }
 
 .button:hover {
-    box-shadow: 2px 2px 5px #555;
-    background-color: #0056b3;
+    box-shadow: 1px 1px 3px #555;
 }
 .primary-btn{
     background-color: pink;
@@ -114,8 +119,9 @@ h2{
     background-color: skyblue;
 }
 body{
-    background-image: url("assets/pika.jpg");
-    
+    /* background-image: url("assets/pika.jpg"); */
+    /* background-size: cover; */
+    background-color:rgb(249, 230, 25)
 }
 .bgbro{
     background-image: url(assets/moon.png);
@@ -129,11 +135,8 @@ body{
 .pubg{
     background-image: url(assets/sunrise.jpg);
 }
-.rish{
-    background-image: url(assets/sunrise.jpg);
-}
 .zero{
-    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
 }
 
 .success{
@@ -153,18 +156,48 @@ body{
 
 }
 .rish{
-    font-size: 3rem;
     text-align: center;
-    margin-top: 100px;
-    font-weight: bolder;
     color: darkmagenta;
-
+    background-color:rgb(249, 230, 25)
+}
+.me {
+    font-size: 1.5rem;
+    background-color: rgb(245, 57, 245);
+    width:50%;
+    margin: auto;
+    margin-top: 10%;
+    padding:5px;
+    opacity: 0.85;
+    border-radius: 15px;
+    box-shadow: 15px 15px 40px 10px rgba(0, 0, 0, 0.5);
 }
 .red{
     color: crimson;
 }
 .black{
-    color: #333;
+    color: black;
+}
+.black:nth-child(2) {
+    list-style-position: inside;
+    line-height:3rem;
+}
+.contact {
+    background-color:rgb(35, 169, 35);
+    border:5px solid red;
+    text-align:center;
+    width:40vw;
+    margin:auto;
+    margin-top:13%;
+    height:20vw;
+    font-size:1.5em;
+    list-style-position: inside;
+    border-radius:14px;
+    box-shadow: 15px 15px 40px 10px rgba(0, 0, 0, 0.5);
+}
+.contact ol {
+    color:white;
+    line-height:3.3rem;
+    padding-top:0.75rem;
 }
 .head{
     font-size: 3.5rem;

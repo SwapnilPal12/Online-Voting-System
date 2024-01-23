@@ -1,5 +1,6 @@
 <?php
 session_start();
+<<<<<<< HEAD
 if(!(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] != true)) {
     echo '<script>
     var confirmLogout = confirm("Are you sure you want to log out?");
@@ -17,4 +18,10 @@ session_unset();
 session_destroy();
 header("location: vansh_login.html");
 exit;
+=======
+
+session_unset();
+session_destroy();
+header("location:index.html");
+>>>>>>> 667071264a45366587f1f9eb599b55d493dd5481
 ?>

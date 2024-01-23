@@ -8,6 +8,10 @@
 body{
     font-family: 'Poppins', sans-serif;
     color: blue;
+    background: var(--background-color);
+    color: var(--text-color);
+    transition: 0.8s;
+
 }
 h1{
     font-size: 3rem;
@@ -75,7 +79,7 @@ li{
     font-size: 1.5rem;
 }
 .hover-links{
-    color: black;
+    color: cornflowerblue;
     transition: 0.2s ease-out;
 }
 .hover-links:hover{
@@ -98,4 +102,34 @@ li{
 header{
     padding: 50px 400px 100px;
 }
+
+:root{
+    --background-color:#fff;
+    --text-color:#555;
+    --title-color: #000;
+}
+.dark-theme{
+    --background-color:#000;
+    --text-color:#999;
+    --title-color: #fff;
+}
+.toggle-btn{
+    background: #4864ff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.toggle-btn img{
+    width: 25px;
+    margin-left: 10px;
+}
+p{
+    color: black;
+}
+
 

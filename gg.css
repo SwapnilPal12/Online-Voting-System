@@ -1,0 +1,37 @@
+a:link{
+    background-color: aquamarine;
+    color: blue;
+    font-size: 34px;
+    text-decoration: none;
+}
+a:visited{
+    background-color: greenyellow;
+    color: blue;
+    font-size: 34px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: yellow;
+    color: red;
+    font-size: 34px;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:active{
+    background-color: green;
+    color: red;
+    font-size: 34px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.meubar{
+    background-color: yellow;
+    color: red;
+    font-size: 34px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+    border-style: inset;
+    border-color: red;
+    border-width: 5px;
+}

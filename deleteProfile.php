@@ -9,13 +9,11 @@ if(isset($_SESSION['uname']) && isset($_SESSION['pass'])) {
 
     // Create a prepared statement
     $query = "DELETE FROM voter WHERE uname = '$un' AND pass = '$pd' ";
-    if(mysqli_query($con,$query))
-    {
+    if(mysqli_query($con,$query)) {
         header("location:index.html");
         echo "profile deleted";
     }
-    else
-    {
+    else {
         echo "Error: " . mysqli_error($conn);
     }
     exit(0);
